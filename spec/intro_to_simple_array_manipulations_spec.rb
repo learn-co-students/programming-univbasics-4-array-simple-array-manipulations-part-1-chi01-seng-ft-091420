@@ -34,7 +34,6 @@ describe "using_pop" do
   it "takes in argument of an array and uses the pop method to remove the last element from the array and return that element" do 
     expect(@deleted_string).to eq("Antarctica")
   end
-
   it "decreases the length of the array by 1" do 
     expect(@continents.size).to eq(6)
   end
@@ -48,7 +47,6 @@ describe "pop_with_args" do
   it "takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them" do 
     expect(@small_dogs).to eq(["Chihuahua", "Shiba Inu"])
   end 
-
   it "decreases the length of the array by 2" do
     expect(@dog_breeds.size).to eq(2)
   end
@@ -62,7 +60,6 @@ describe "using_shift" do
   it "takes in an argument of an array and uses the shift method to remove the first item and return it" do 
     expect(@im_so_over_this_city).to eq("Lagos")
   end
-
   it "decreases the length of the array by 1" do 
     expect(@my_favorite_cities.size).to eq(7)
   end
@@ -77,7 +74,6 @@ describe "shift_with_args" do
   it "takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array" do 
     expect(@brands_removed).to eq(["Blue Bell Creameries", "Ben & Jerry's"])
   end
-
   it "decreases the length of the array by 2" do 
     expect(@brands_removed.size).to eq(2)
   end
